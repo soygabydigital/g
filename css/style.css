@@ -16,7 +16,7 @@
     color: #fefefe;
 }
 
-p b,  h2 b {
+p b,  h2 b, h4 b {
     color: #ff6600;
 }
 
@@ -38,7 +38,10 @@ section {
     margin-right: 4em;
 }
 
-
+lottie-player{
+    margin-top: -4em;
+    margin-bottom: -4em;
+}
 
 .back-to-top {
     position: fixed;
