@@ -20,12 +20,6 @@ p b,  h2 b, h4 b {
     color: #ff6600;
 }
 
-
-.group-items{
-    float: right;
-    margin-bottom: 1em;
-}
-
 .btn-light:hover{
     background-color: #ff6600;
     color: #fefefe !important;
@@ -33,28 +27,27 @@ p b,  h2 b, h4 b {
     transition: .5s;
 }
 
-section {
-    margin-left: 4em;
-    margin-right: 4em;
+.lottie {
+    height: 250px;
+    width: auto;
 }
-
 
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
-    bottom: 45px;
+    right: 12px;
+    bottom: 30px;
     z-index: 99;
 }
 
 .my-6 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .py-6 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -461,4 +454,3 @@ section {
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
-
