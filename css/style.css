@@ -9,11 +9,11 @@
 #fondonegro {
     background-image: url(../img/Negro-1.jpg);
     margin-top: -6em;
-    padding-top: 4em;
+    padding: 4em;
     padding-bottom: 4em;
-    padding-left: 4em;
     padding-right: 4em;
     color: #fefefe;
+    height: auto;
 }
 
 p b,  h2 b, h4 b {
@@ -453,4 +453,9 @@ p b,  h2 b, h4 b {
 
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
+}
+
+.group-items{
+    float: right;
+    margin-right: 1em;
 }
