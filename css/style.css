@@ -32,6 +32,11 @@ p b,  h2 b, h4 b {
     width: auto;
 }
 
+#service{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
