@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW 2020 (64-Bit) -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1000mm" height="1000mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 100000 100000"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="215.9mm" height="279.4mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21590 27940"
  xmlns:xlink="http://www.w3.org/1999/xlink"
- xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003"
+ inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+ sodipodi:docname="intento gaby.svg"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns:svg="http://www.w3.org/2000/svg">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#3E4095}
+    .fil0 {fill:#FF6600}
    ]]>
   </style>
  </defs>
  <g id="Capa_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <circle class="fil0" cx="48721.75" cy="48988" r="38567.76"/>
+  <sodipodi:namedview id="namedview27132" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" inkscape:zoom="0.51539142" inkscape:cx="411.33785" inkscape:cy="707.22947" inkscape:window-width="1366" inkscape:window-height="705" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer1"/>
+  <g id="_1717074677488">
+   <path id="path27345" class="fil0" d="M9888.63 16191.26c-9087.79,-1819.26 -6971.72,-18346.24 849.04,-7400.13 340.34,376.62 792.45,-172.77 592.12,-459.72 -7709.24,-12699.12 -18395.56,3928.98 -818.21,9521.03 4324.9,-19786.73 14901.42,-9297.86 930.57,1878.53 0,0 -353.21,245.14 31.65,903.09 95.13,196.17 407.28,211.88 353.23,9.42 -155.34,-762.03 94.69,-766.66 628.01,-1112.71 20149.03,-15222.8 -288.5,-24461.96 -2566.41,-3339.51z" sodipodi:nodetypes="ccccccccc"/>
+   <path id="path30491" class="fil0" d="M12337.34 22464.97c0,335.76 -272.3,608.07 -608.08,608.07 0,0 0,0 0,0 -335.79,0 -608.1,-272.31 -608.1,-608.09 0,0 0,0 0,0 0,-335.78 272.31,-608.1 608.1,-608.1 0,0 0,0 0,0 335.78,0 608.08,272.32 608.08,608.1 0,0 0,0 0,0l0 0.02z"/>
+   <path class="fil0" d="M9403.5 11515.75l3888.46 0c294.1,0 532.6,238.51 532.6,532.6l0 0c0,294.1 -238.5,532.61 -532.6,532.61l-3888.46 0c-294.08,0 -532.59,-238.51 -532.59,-532.61l-0.01 0c0.01,-294.09 238.52,-532.6 532.62,-532.6z"/>
+  </g>
  </g>
 </svg>
