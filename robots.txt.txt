@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://soygabydigital.github.io/g/sitemap.xml
