@@ -34,7 +34,7 @@ p b,  h2 b, h4 b, ul li b {
     width: auto;
 }
 
-#service{
+.p-body, #service{
     padding-left: 6%;
     padding-right: 6%;
 }
