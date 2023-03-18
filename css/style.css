@@ -22,6 +22,14 @@ p b,  h2 b, h4, h5 b, ul li b {
     color: #ff6600;
 }
 
+.hover-blue{
+     transition: .5s;
+}
+
+.hover-blue:hover{
+    color: #3e4095;
+}
+
 .btn-light:hover{
     background-color: #ff6600;
     color: #fefefe !important;
