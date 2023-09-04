@@ -6,6 +6,8 @@
     --dark: #0e0e0e;
 }
 
+
+
 #fondonegro {
     background-image: url(../img/Negro-1.webp);
     margin-top: -6em;
@@ -147,7 +149,6 @@ p b,  h2 b, h4, h5 b, ul li b {
 /*** Header ***/
 #home {
     margin-bottom: 6rem;
-    background: url(../img/bg-header.webp) left top no-repeat;
 }
 
 .typed-cursor {
