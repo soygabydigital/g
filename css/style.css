@@ -2,7 +2,7 @@
 :root {
     --primary: #3e4095;
     --secondary: #ff6600;
-    --light: #fefefe;
+    --light: #fefffa;
     --dark: #0e0e0e;
 }
 
@@ -14,9 +14,9 @@
     padding: 4em;
     padding-bottom: 4em;
     padding-right: 4em;
-    color: #fefefe;
+    color: #fefffa;
     height: auto;
-    color: #fefefe; 
+    color: #fefffa; 
     background-color: #0e0e0e;
 }
 
@@ -34,7 +34,7 @@ p b,  h2 b, h4, h5 b, ul li b {
 
 .btn-light:hover{
     background-color: #ff6600;
-    color: #fefefe !important;
+    color: #fefffa !important;
     border: none;
     transition: .5s;
 }
@@ -91,7 +91,7 @@ p b,  h2 b, h4, h5 b, ul li b {
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #fefefe !important;
+    color: #fefffa !important;
 }
 
 .btn-square {
