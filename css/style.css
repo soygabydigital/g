@@ -1,4 +1,7 @@
 /********** Template CSS **********/
+@import url('https://fonts.cdnfonts.com/css/trueno');
+*{font-family: 'Trueno', sans-serif;}
+
 :root {
     --primary: #3e4095;
     --secondary: #ff6600;
