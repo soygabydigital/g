@@ -473,8 +473,7 @@ p b,  h2 b, h4, h5 b, ul li b {
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
-
+/*
 .group-items{
-    float: right;
-    margin-right: 10%;
+    margin-bottom: 10%;
 }
