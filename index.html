@@ -19,8 +19,7 @@
         <title>Gabriela Alvarado | Diseño y Desarrollo Web</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Gabriela Alvarado | Diseño y Desarrollo Web para Creadores Digitales" name="title">
-        <meta content="Diseño y Desarrollo Web para Creadores Digitales. Mejora tu presencia digital e impulsa tu negocio con una web 
-        que te posicione y sea difícil de olvidar." name="description">
+        <meta content="Diseño y Desarrollo Web para Creadores Digitales. Optimizo tu presencia digital con una web estratégica que representa tu negocio. name="description">
         <meta itemprop="image" content="img/logo.png">
 
         <meta property="og:image" content="img/logo.png" />
@@ -30,7 +29,10 @@
         <meta property="og:description" content="Diseñadora y desarrolladora web profesional | Ingeniero en Informática | Latinoamérica">
         <meta property="og:url" content="https://soygabydigital.github.io/g/">
         <meta property="og:site_name" content="Gabriela Alvarado | Diseñadora y Desarrolladora Web en Venezuela">
+
         <meta property="og:image" content="https://soygabydigital.github.io/g/img/disenadora-desarrolladora-web-creador-digital-san-felipe-yaracuy-venezuela.webp">
+        <meta property="og:image" content="https://soygabydigital.github.io/g/img/logo.png">
+        
         <meta property="og:image:width" content="720">
         <meta property="og:image:height" content="900">
         <meta property="og:image:type" content="image/png">
@@ -45,12 +47,11 @@
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
         <link href="https://fonts.cdnfonts.com/css/trueno" rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
         <!-- Libraries Stylesheet -->
         <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -67,13 +68,17 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <!-- Spinner Start -->
-   <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Cargando...</span>
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-container">
+            <div class="cir-spinner"></div>
+            <div class="cir-spinner"></div>
+            <div class="cir-spinner"></div>
         </div>
-    </div>
-    <!-- Spinner End -->
+        </div>
+        <!-- Spinner End -->
 
+    <!-- Div independiente para los círculos -->
+    <div class="custom-background"></div>
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
@@ -91,53 +96,78 @@
                 
                 <a href="#about" class="nav-item nav-link" title="Quien soy">¿Quién soy?</a>
                 <a href="#parati" class="nav-item nav-link" title="Para ti">Para tí</a>
-                <a href="#plantillas" class="nav-item nav-link" title="Plantillas">Plantillas</a>
+                
                 <a href="#service" class="nav-item nav-link" title="Servicios">Servicios</a>
                 <a href="#skill" class="nav-item nav-link" title="Habilidades">Habilidades</a>
                  <a href="#project" class="nav-item nav-link" title="Portafolio">Portafolio</a>
                 <a href="#testimonial" class="nav-item nav-link" title="Dicen por ahi">Dicen por ahí</a>
+                <i class="nav-item nav-link" style="color: #ff6600;">|</i>
+                <a href="blog.html" class="nav-item nav-link" title="Blog">Blog</a>
+                <a href="views/faq/faq.html" class="nav-item nav-link" title="Preguntas y Respuestas Frecuentes">FAQ</a>
                 <a href="#contact" class="nav-item nav-link" title="Contacto">Contacto</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
+        <!-- Circle Start -->
+        <div class="content-container"></div>
+        <!-- Circle End -->
+   
 
     <!-- Header Start -->
-    <div class="container-fluid bg-light my-6 mt-0" id="home">
+    <div class="container-fluid my-6 mt-0" id="home">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 py-6 pb-0 pt-lg-0">
                  <br><br><br>
-                    <h1 class="display-3 mb-3 text-secondary">Soy <b class="hover-blue">Gaby Digital</b></h1>
+                    <h1 class="display-3 mb-3 text-secondary text-bg">Soy <b class="hover-blue">Gaby Digital</b></h1>
                     <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">Creadora Digital..., Supera tus límites,, alcanza nuevas alturas., Crea una presencia digital, con una web única, Toma el control de tu negocio, haz que sucedan las cosas.</div>
+                    <div class="typed-text d-none text-bg">Creador Digital..., Supera tus límites,, alcanza nuevas alturas., Crea una presencia digital, con una web única, Toma el control de tu negocio, haz que sucedan las cosas.</div>
                     
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="img/disenadora-desarrolladora-web-creador-digital-san-felipe-yaracuy-venezuela.webp" alt="Diseñadora y Desarrolladora Web para Creadores Digitales. Venezolana. San Felipe e Independencia - Yaracuy - Venezuela" title="Web">
+                    <img class="img-fluid" src="img/disenadora-desarrolladora-web-creador-digital-san-felipe-yaracuy-venezuela.png" alt="Diseñadora y Desarrolladora Web para Creadores Digitales. Venezolana. San Felipe e Independencia - Yaracuy - Venezuela" title="Web">
                 </div>
             </div>
         </div>
     </div>
     <!-- Header End -->
 
+
     <div id="about">
-        <div id="fondonegro">
-            <h2 class="display-5 mb-5 text-center"><b>¿QUIÉN SOY?</b> </h2>
+        <div id="fondonegro" style="width: 95%; margin-left: auto; margin-right: auto; border-radius: 1.5em;">
+           <!-- <h2 class="display-5 mb-5 text-center"><b>¿QUIÉN SOY?</b> </h2>-->
 
             <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
                  <p> &nbsp;&nbsp;&nbsp;
-                    Soy Gabriela Alvarado, pero todos me conocen como <b>Gaby Digital.</b>  Me gradué de Técnico Superior Universitario en Informática y en poco tiempo de Ingeniero. Algo que me dejó enamorada de mis estudios fue el mundo del diseño y desarrollo web. 
-                    <b>Si eres un creador de contenidos digitales,</b>  te has encontrado aquella amiga que te ayudará a <b>impulsar tu negocio <i>(más allá de las redes sociales)</i>.</b>  <br>
+                    ¡Hola! Soy Gaby Digital, ingeniera en informática y 
+                    creadora apasionada del mundo digital. 
+                    <b>
+                        Me dedico a diseñar y desarrollar webs estratégicas que capturan la 
+                        esencia de tu marca y la plasman en un espacio único y funcional.   
+                    </b>
+                    Destacar en el ámbito digital es crucial, y estoy aquí para ayudarte 
+                    a lograrlo de manera efectiva.
                 </p>  
                 <p> &nbsp;&nbsp;&nbsp;
-                    Empecé mi emprendimiento como <b>creadora digital,</b> y he amado el proceso; largo, con mucho esfuerzo, pero <b>bastante emocionante.</b> Porque cumplir un sueño requiere de estrategia 
-                    y ese resultado que obtienes a largo plazo es el <b>resultado de tus pequeños objetivos.</b> 
+                    <b>
+                        Trabajo con creadores digitales que buscan mejorar y 
+                        evolucionar sus negocios gradualmente. 
+                    </b>
+                    Acompaño cada paso del proceso, asegurando que tu web sea atractiva y funcional. 
+                    <b>
+                        Utilizo las tecnologías más adecuadas para cada proyecto, 
+                    </b>
+                    creando diseños estratégicos y personalizados que impulsan tu crecimiento.                   
                 </p>
                 <p> &nbsp;&nbsp;&nbsp;
-                    Al ser creadora digital, entendí que <b>la constancia en el proceso de crecimiento, y superación personal es solo para valientes.</b> Si llegaste hasta aquí, es porque tus sueños van más allá, 
-                    y quiero ser parte de tu crecimiento profesional.
+                    Como creadora digital, comparto tu pasión y visión. 
+                    <b>
+                        Mi objetivo es ser tu apoyo y hacer crecer tu negocio con mis creaciones digitales. 
+                    </b>
+                    Transformaremos tu presencia en línea, fortaleciendo tu marca y conectándola con tu 
+                    audiencia de manera auténtica y poderosa.
                 </p>
             </div>
         </div>
@@ -145,10 +175,10 @@
     <section>
         <div class="container-xxl py-6 pb-5">
             <div class="text-center">
-                <h2 class="display-5 mb-5" id="parati"><b>ESTO ES PARA TÍ SI...</b> </h2>
+                <h2 class="display-5 mb-5 text-bg" id="parati"><b>ESTO ES PARA TÍ SI...</b> </h2>
             </div>
             <div class="row wow fadeInUp p-body" data-wow-delay="0.5s">
-            <div class="col-xl-6 col-md-6 col-lg-6 col-sm-6">
+            <div class="col-xl-6 col-md-6 col-lg-6 col-sm-6 text-bg">
                     <ul>
                     <li>Eres <b>creador(a) digital.</b></li>
                     <li>Estás <b>creciendo tu negocio.</b></li>
@@ -162,9 +192,9 @@
                     <li>Estás dispuesto(a) a invertir en tu negocio.</li>
                 </ul> 
             </div>
-            <div class="col-xl-6 col-md-6 col-lg-6 col-sm-6">
+            <div class="col-xl-6 col-md-6 col-lg-6 col-sm-6 text-bg">
                 <p> &nbsp; &nbsp; &nbsp;
-                    <b>También soy creadora digital,</b> y mi propósito contigo es que podamos <b>impulsar tu negocio</b> 
+                    <b>También soy creadora digital,</b> y mi propósito contigo es que podamos <b>crecer tu negocio</b> 
                     con una web que te posicione y sea difícil de olvidar. 
                 </p>
                 <p> &nbsp; &nbsp; &nbsp;
@@ -182,7 +212,7 @@
 
           <!-- Servicios-->
           <section>
-             <div class="container-xxl py-6 pb-5" id="service">
+             <div class="container-xxl py-6 pb-5 " id="service" style="background-color: #fefefe;">
                 <div class="text-center">
                     <h2 class="display-5 mb-5"><b>SERVICIOS</b> </h2>
                 </div>
@@ -194,7 +224,7 @@
                         <p class="text-muted">Perfecta para iniciar tu negocio en la web, tiene un objetivo claro y definido... <b>¡Captura la atención de tus visitantes y conviértelos en tus potenciales clientes!</b></p>
                     </div>
 
-                   <div class="col-lg-4 wow fadeInUp" data-wow-delay="1s">
+                   <div class="col-lg-4 wow fadeInU" data-wow-delay="0.5">
                         <lottie-player class="lottie" src="https://lottie.host/25e88960-2c13-4eb5-af45-07f7c8115546/KNtrNuC9Sl.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                         <h5 class="my-3"><b>AUDITORÍA DE TU WEB</b> </h5>
                         <p class="text-muted">Estudio tu web, analizo los puntos de mejora y <b>ofrezco alternativas para optimizarla.</b> Te guiaré para que obtengas tu web soñada.<b>¿Te apuntas?</b> </p>
@@ -206,12 +236,18 @@
                         <p class="text-muted">Tu negocio cambia al pasar del tiempo, tu web también. Actualizo y optimizo tu web de acuerdo a las nuevas necesidades de tu negocio. <b>¿Vamos a ello?</b></p>
                     </div>
                 </div>
-                <div data-wow-delay="1.5s" class="wow fadeInUp text-center" style="margin-top: 2em;">
-                    <a class="btn btn-primary py-3 px-5" href="mailto:soygabydigital.ga@gmail.com" id="contact" title="Contactar">
-                        Contactar
-                    </a>
+
+                <div style=" background-color: #e9e9f9 !important;" id="contact" class="text-center py-5 wow fadeInUp link-contact" data-wow-delay="1s">
+                    <p>
+                        <b class="hover-blue">¿Listo para transformar tus ideas?</b>
+                        <i>¡Hagamos realidad tu proyecto y demos vida a tu marca!</i>
+                    </p>
+                    
+                        <a class="btn btn-primary" href="views/form/form.html">Contactar</a>
                 </div>
+
                 
+
             </div>
           </section>
 
@@ -220,11 +256,11 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <h2 id="skill" class="display-5 mb-5"><b>HABILIDADES</b> </h2>
+                <h2 id="skill" class="display-5 mb-5 text-bg"><b>HABILIDADES</b> </h2>
                 
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <div class="skill mb-4">
+                        <div class="skill mb-4 text-bg">
                             <ul>
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -237,7 +273,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="skill mb-4">
+                        <div class="skill mb-4 text-bg">
                             <ul>
                                 <li>MySQL</li>
                                 <li>PostgreSQL</li>
@@ -250,7 +286,7 @@
             </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                <ul class="nav nav-pills rounded border border-2 border-primary mb-5 text-bg">
                     <li class="nav-item w-50">
                         <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Me dedico</button>
                     </li>
@@ -261,22 +297,22 @@
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row gy-5 gx-4">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 text-bg">
                                 <h5>Conocer tu negocio</h5>
                                 <hr class="text-primary my-2">
                                 <p class="text-primary mb-1">Para analizar tus requerimientos y darte una solución a la medida.</p>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 text-bg">
                                 <h5>Diseñar</h5>
                                 <hr class="text-primary my-2">
                                 <p class="text-primary mb-1">Cómo se verá la web adaptada a tu negocio.</p>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 text-bg">
                                 <h5>Desarrollar</h5>
                                 <hr class="text-primary my-2">
                                 <p class="text-primary mb-1">Una web que sea más que bonita, que sea funcional.</p>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 text-bg">
                                 <h5>Implementar</h5>
                                 <hr class="text-primary my-2">
                                 <p class="text-primary mb-1">La web para que puedas usarla en tu negocio.</p>
@@ -285,12 +321,12 @@
                     </div>
                     <div id="tab-2" class="tab-pane fade show p-0">
                         <div class="row gy-5 gx-4">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 text-bg">
                                 <h5>Angular, SQL, HTML, Python</h5>
                                 <hr class="text-primary my-2">
                                 <p class="text-primary mb-1">2024</p>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 text-bg">
                                 <h5>
                                     Estrategias en RR.SS, PNL, Storytelling, Contrucción de Marca
                                     Presentaciones Digitales, GitLab, Python.
@@ -298,19 +334,19 @@
                                 <hr class="text-primary my-2">
                                 <p class="text-primary mb-1">2023</p>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 text-bg">
                                 <h5>
                                     Analítica Web, Marketing, Digital, JavaScript, HTML5 & CSS3, Gestión de Proyectos.
                                 </h5>
                                 <hr class="text-primary my-2">
                                 <p class="text-primary mb-1">2022</p>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 text-bg">
                                 <h5>
                                     Escritura Creativa, Formación en Liderazgo, Oratoria.
                                 </h5>
                                 <hr class="text-primary my-2">
-                                <p class="text-primary mb-1"> <=2021</p>
+                                <p class="text-primary mb-1"> <i class="bi bi-arrow-left"></i>2021</p>
                             </div>
                         </div>
                     </div>
@@ -325,10 +361,10 @@
         <div class="container">
             <div id="project" class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h2 class="display-5 mb-5"><b>PORTAFOLIO</b> </h2>
+                    <h2 class="display-5 mb-5 text-bg"><b>PORTAFOLIO</b> </h2>
                 </div>
                 <div class="col-lg-6 text-lg-end">
-                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                    <ul class="list-inline mx-n3 mb-0 text-bg" id="portfolio-flters">
                         <li class="mx-3 active" data-filter="*">Todo</li>
                         <li class="mx-3" data-filter=".page">Páginas Web</li>
                         <li class="mx-3" data-filter=".site">Sitios Web</li>
@@ -367,9 +403,12 @@
     </div><!--padre-->
     <!-- Projects End -->
 
+    
+
+
 
     <!-- Testimonial Start -->
-    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+    <div class="container-fluid py-5 my-5" style="background-color: #fefefe;" id="testimonial">
         <div class="container-fluid py-5">
             <div class="text-center">
                 <h2 class="display-5 mb-5"><b>DICEN POR AHÍ</b> </h2>
@@ -443,81 +482,64 @@
     </div>
     <!-- Testimonial End -->
 
-
-    <!-- Contact Start
-    <div class="container-xxl pb-5" id="contact">
-        <div class="container py-5">
-                <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="display-5 mb-5 text-center"><b>TRABAJEMOS JUNTOS</b> </h2>
-                    <form role="form" id="form" method="POST">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
-                                    <label for="name">Nombre</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" name="correo" placeholder="Correo" required>
-                                    <label for="email">Correo</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" name="asunto" placeholder="Asunto" required>
-                                    <label for="subject">Asunto</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Mensaje" name="mensaje" style="height: 100px" required></textarea>
-                                    <label for="message">Mensaje</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                    <a href="mailto:soygabydigital.ga@gmail.com" style="opacity: 0;" id="enviar"></a>
-                </div>
-            </div>
-        </div>
-    </div> <br><br>
-     Contact End -->
-
-
-
     <!-- Copyright Start -->
-    <div class="container-fluid text-white py-4" id="fondonegro">
+    <footer>
+    <div class="container-fluid text-white" id="fondonegro">
             <div class="container">
-               
-                    <div id="date"></div>        
 
-                        <div class="d-flex pt-2 group-items">
-                            <a class="btn btn-square btn-light me-2" href="https://www.instagram.com/soygabydigital/" title="Instagram"><i class="fab fa-instagram"></i></a>
-                           <!-- <a class="btn btn-square btn-light me-2" href="https://x.com/soygabydigital?t=_Dphc0hKN_cwwDC538gF4w&s=09" title="X"><i class="fab fa-twitter"></i></a>-->
-                            <a class="btn btn-square btn-light me-2" href="https://www.tiktok.com/@soygabydigital" title="TikTok">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
-                                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
-                              </svg>
-                            </a>
-                            <a class="btn btn-square btn-light me-2" href="https://github.com/soygabydigital" title="GitHub"><i class="fab fa-github"></i></a>
-                            <a class="btn btn-square btn-light me-2" href="https://www.paypal.me/soygabydigital" title="PayPal"><i class="fab fa-paypal"></i></a>
-                        </div>
-              
+                <div class="row">
+                    <div class="col-md-3" >
+                        <div id="date"></div>
+                        <br>
+                        <b style="color: #ff6600;">Correo Electrónico:</b> <br>
+                        <a href="mailto:soygabydigital.ga@gmail.com" style="color: #fefefe;">
+                            soygabydigital.ga@gmail.com
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="text-secondary">Servicios</h4>
+                            <i class="bi bi-arrow-return-right"></i>
+                            <a style="color: #fefefe;" href="#service">Creación de Web</a><br>
+                            <i class="bi bi-arrow-return-right"></i>
+                            <a style="color: #fefefe;" href="#service">Auditoría Web</a><br>
+                            <i class="bi bi-arrow-return-right"></i>
+                            <a style="color: #fefefe;" href="#service">Mantenimiento web</a><br>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="text-secondary">Información</h4>
+                        <i class="bi bi-arrow-return-right"></i>
+                        <a style="color: #fefefe;" href="#about">Sobre mi</a><br>
+                        <i class="bi bi-arrow-return-right"></i>
+                        <a style="color: #fefefe;" href="#parati">Para ti</a><br>
+                        <i class="bi bi-arrow-return-right"></i>
+                        <a style="color: #fefefe;" href="#skill">Habilidades</a><br>
+                        <i class="bi bi-arrow-return-right"></i>
+                        <a style="color: #fefefe;" href="#project">Portafolio</a><br>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="text-secondary">Redes Sociales</h4>
+                        <a style="color: #fefefe;" href="https://www.instagram.com/soygabydigital/"><i class="bi bi-instagram"></i> &nbsp; Instagram</a><br>
+                        <a style="color: #fefefe;" href="https://www.threads.net/@soygabydigital"><i class="bi bi-threads"></i> &nbsp; Threads</a><br>
+                        <a style="color: #fefefe;" href="https://www.tiktok.com/@soygabydigital"><i class="bi bi-tiktok"></i> &nbsp; TikTok</a><br>           
+                        <a style="color: #fefefe;" href="https://github.com/soygabydigital"><i class="bi bi-github"></i> &nbsp; Github</a><br>
+                        <a style="color: #fefefe;" href="https://www.paypal.me/soygabydigital"><i class="bi bi-paypal"></i> &nbsp; Paypal</a><br>
+                    </div>
+                </div> <!--row-->
+
                 <!--/*** This template is free as long as you keep the footer author’s credit link/attribution 
                 link/backlink. If you'd like to use the template without the footer author’s credit 
                 link/attribution link/backlink, you can purchase the Credit Removal License from 
                 "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                 
-                <p style="color: #505050; margin-top: .5em;">
+                <small style="font-size: 12px; color: #505050; margin-top: .5em;">
                     Designed By <a  href="https://htmlcodex.com">HTML Codex </a>
                     Distributed By: <a href="https://themewagon.com">ThemeWagon</a>
-                </p>
+                </small>
             </div>
         </div>
+    </footer>
+
+        
     </div>
     <!-- Copyright End -->
 
@@ -530,7 +552,7 @@
     <!-- Back to Top -->
     <a href="#" id="a-top" class="btn btn-lg btn-secondary btn-lg-square back-to-top" title="top"><b></b><i class="bi bi-arrow-up"></i></b></a>
 
-   <!-- <script>
+    <script>
         const $form = document.querySelector('#form')
         const $a = document.querySelector('#enviar')
 
@@ -547,7 +569,7 @@
 
             $a.click()
         }
-    </script> -->
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -568,6 +590,9 @@
 <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"5c4be6a60b7424ba85e3862716febad3"})});</script>
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
 </body>
 
 </html>

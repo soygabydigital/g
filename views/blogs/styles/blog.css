@@ -1,0 +1,64 @@
+h1 {
+    color: #fefefe;
+}
+
+h1 b {
+    color: #ff6600;
+}
+
+.contenido-blog {
+    background-color: #fefefe;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.contenido {
+    margin-top: -1rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #3e4095;
+}
+
+ul li {
+    margin-left: 2em;
+    text-decoration: none;
+}
+
+#about {
+    margin-top: 10%;
+}
+
+p a {
+    font-size: 12px;
+}
+
+/*paginacion*/
+
+.listPage{
+    padding:10px;
+    text-align: center;
+    list-style: none;
+}
+.listPage li{
+    background-color: #dfdfdfbd;
+    color: #0e0e0e;
+    padding:.8em;
+    width: 3em;
+    height: 3em;
+    display: inline-block;
+    margin:0 10px;
+    cursor: pointer;
+    border-radius: 3em;
+}
+.listPage .active{
+    background-color: #ff6600;
+    color:#fefefe;
+}
