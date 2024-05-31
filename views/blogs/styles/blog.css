@@ -2,6 +2,7 @@ h1 {
     color: #fefefe;
 }
 
+
 h1 b {
     color: #ff6600;
 }
@@ -12,8 +13,7 @@ h1 b {
     margin-left: auto;
     margin-right: auto;
     padding-top: 2em;
-    padding-left: 4em;
-    padding-right: 4em;
+
 }
 
 .contenido {

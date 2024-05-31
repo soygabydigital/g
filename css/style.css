@@ -32,7 +32,6 @@ body{
 
 p b,  h2 b, h4, h5 b, ul li b {
     color: #ff6600;
-    border-width: -2px;
 }
 
 .hover-blue{
