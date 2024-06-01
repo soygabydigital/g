@@ -1,16 +1,27 @@
 /********** Template CSS **********/
-@import url('https://fonts.cdnfonts.com/css/trueno');
+@font-face {
+    font-family: "Trueno";
+    src: url("https://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.eot");
+    src: url("https://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.svg#Trueno")format("svg");
+}
 *{font-family: 'Trueno', sans-serif;}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f5f5fb; /* Color de fondo */
+}
 
 :root {
     --primary: #3e4095;
     --secondary: #ff6600;
     --light: #fefffa;
     --dark: #0e0e0e;
-}
-
-body{
-    background-color: #e9e9f9;
 }
 
 .link-contact {
@@ -139,7 +150,7 @@ p b,  h2 b, h4, h5 b, ul li b {
 .navbar .navbar-nav .nav-link {
     padding: 20px 15px;
     color: var(--dark);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     outline: none;
 }
@@ -509,12 +520,7 @@ display: none;
 
 
 /*animación bg*/
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #e9e9f9; /* Color de fondo */
-}
+
 
 .custom-background {
     position: fixed;
@@ -542,7 +548,7 @@ body {
 }
 
 .text-bg{
-    background-color: #e9e9f9;
+    background-color: #f5f5fb;
     border-radius: .3em;
 }
 
