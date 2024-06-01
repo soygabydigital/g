@@ -209,7 +209,7 @@ function listPage() {
 
     if (thisPage != 1) {
         let prev = document.createElement('li');
-        prev.innerText = '<';
+        prev.innerText = '←';
         prev.setAttribute('onclick', "changePage(" + (thisPage - 1) + ")");
         document.querySelector('.listPage').appendChild(prev);
     }
@@ -226,7 +226,7 @@ function listPage() {
 
     if (thisPage != count && count > 0) {
         let next = document.createElement('li');
-        next.innerText = '>';
+        next.innerText = '→';
         next.setAttribute('onclick', "changePage(" + (thisPage + 1) + ")");
         document.querySelector('.listPage').appendChild(next);
     }

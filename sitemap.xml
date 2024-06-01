@@ -1,35 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>https://soygabydigital.github.io/g/</loc>
-
-    <loc>https://soygabydigital.github.io/g/representacion_visual.ico</loc>
-
-    <loc>https://soygabydigital.github.io/g/img/logo.png</loc>
-    <loc>https://soygabydigital.github.io/g/img/favicon.svg</loc>
-
-    <loc>https://soygabydigital.github.io/g/img/Negro-1.webp</loc>
-    
-    <loc>https://soygabydigital.github.io/g/img/project-1.webp</loc>
-    <loc>https://soygabydigital.github.io/g/img/project-2.webp</loc>
-    <loc>https://soygabydigital.github.io/g/img/project-3.webp</loc>
-    <loc>https://soygabydigital.github.io/g/img/project-4.webp</loc>
-    <loc>https://soygabydigital.github.io/g/img/project-5.webp</loc>
-    <loc>https://soygabydigital.github.io/g/img/project-6.webp</loc>
-
-    <loc>https://soygabydigital.github.io/g/img/testimonial-1.webp</loc>
-    <loc>https://soygabydigital.github.io/g/img/testimonial-2.webp</loc>
-    <loc>https://soygabydigital.github.io/g/img/testimonial-3.webp</loc>
-
-  <lastmod>2024-04-23T19:07:23+00:00</lastmod>
+  <loc>http://soygabydigital.github.io/index.html</loc>
 </url>
-
-
+<url>
+  <loc>http://soygabydigital.github.io/blog.html</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/views/faq/faq.html</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/views/form/form.html</loc>
+</url>
+<url>
+  <loc>https://soygabydigital.github.io/g/views/blogs/que-tu-negocio-dependa-de-las-redes-sociales-es-un-error.html</loc>
+</url>
+<url>
+  <loc>https://soygabydigital.github.io/g/views/blogs/importancia-del-contenido-web-para-el-seo.html</loc>
+</url>
+<url>
+  <loc>https://soygabydigital.github.io/g/views/blogs/decorar-no-es-dise%C3%B1ar.html</loc>
+</url>
+<url>
+  <loc>https://soygabydigital.github.io/g/views/blogs/backend-las-espaldas-de-la-web.html</loc>
+</url>
+<url>
+  <loc>https://soygabydigital.github.io/g/views/blogs/las-imagenes-optimizadas-y-su-papel-fundamental-en-la-web.html</loc>
+</url>
+<url>
+  <loc>https://soygabydigital.github.io/g/views/blogs/como-sacarle-provecho-a-los-lottie-files-para-una-web-mas-fresca-y-moderna.html</loc>
+</url>
+<url>
+  <loc>https://soygabydigital.github.io/g/views/blogs/como-elegir-el-hosting-y-dominio-ideal-para-mi-web.html</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/disenadora-desarrolladora-web-creador-digital-san-felipe-yaracuy-venezuela.png</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/favicon.svg</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/logo.png</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/negro-1.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/project-1.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/project-2.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/project-3.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/project-4.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/project-5.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/project-6.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/testimonial-1.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/testimonial-2.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/testimonial-3.webp</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/img/top-header.png</loc>
+</url>
+<url>
+  <loc>http://soygabydigital.github.io/</loc>
+</url>
 </urlset>
