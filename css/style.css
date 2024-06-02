@@ -358,10 +358,6 @@ p b,  h2 b, h4, h5 b, ul li b {
 .desc-portfolio{
     background-color: #fefefe;
     border-radius: 0 0 .5em .5em;
-    padding-left: .5em;
-    padding-top: .5em;
-    padding-right: .5em;
-    padding-bottom: .5em;
 }
 
 .portfolio-item{
