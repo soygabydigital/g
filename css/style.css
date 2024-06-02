@@ -358,6 +358,7 @@ p b,  h2 b, h4, h5 b, ul li b {
 .desc-portfolio{
     background-color: #fefefe;
     border-radius: 0 0 .5em .5em;
+    margin-bottom: 1em;
 }
 
 .portfolio-item{
