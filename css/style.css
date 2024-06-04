@@ -24,6 +24,10 @@ body {
     --dark: #0e0e0e;
 }
 
+h1 p {
+display: none;
+}
+
 .link-contact {
     background-color: #fefefe; 
     border-radius: 1em;
