@@ -1,75 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc>http://soygabydigital.github.io/g</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/representacion-visual-disenadora-web-estrategica.ico</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/blog</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/views/faq/preguntas-frecuentes</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/views/form/formulario-contacto</loc>
-</url>
-<url>
-  <loc>https://soygabydigital.github.io/g/views/blogs/backend-las-espaldas-de-la-web</loc>
-</url>
-<url>
-  <loc>https://soygabydigital.github.io/g/views/blogs/decorar-no-es-disenar</loc>
-</url>
-<url>
-  <loc>https://soygabydigital.github.io/g/views/blogs/depender-de-las-redes-sociales-es-un-error</loc>
-</url>
-<url>
-  <loc>https://soygabydigital.github.io/g/views/blogs/elegir-hostong-dominio-ideal-web</loc>
-</url>
-<url>
-  <loc>https://soygabydigital.github.io/g/views/blogs/imagenes-optimizadas-papel-fundamental</loc>
-</url>
-<url>
-  <loc>https://soygabydigital.github.io/g/views/blogs/importancia-del-contenido-web-para-el-seo</loc>
-</url>
-<url>
-  <loc>https://soygabydigital.github.io/g/views/blogs/provecho-lottie-files-fresca-moderna</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/disenadora-desarrolladora-web-creador-digital-san-felipe-yaracuy-venezuela.png</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/brunomkting-soygabydigital-mensaje-emotivo.webp</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/diferentecreativo-soygabydigital-mensaje-emotivo.webp</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/favicon-gabriela-alvarado-corazon.svg</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/globalmeddia-soygabydigital-mensaje-emotivo.webp</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/header-circulos-naranjas.png</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/logo-gabriela-alvarado-corazon</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/mejor-disenadora-desarrolladora-web-creador-digital-latam.png</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/proyecto-1-gestion-matricula-notas-estudiantes.webp</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/proyecto-2-pagina-web-nicol-pacheco-nplines.webp</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/proyecto-3-reingenieria-modulo-nomina-odoo.webp</loc>
-</url>
-<url>
-  <loc>http://soygabydigital.github.io/img/textura-negro-soygabydigital-creadora-digital.webp</loc>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://soygabydigital.github.io/g</loc>
+        <lastmod>2024-08-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc>https://soygabydigital.github.io/g/blog</loc>
+        <lastmod>2024-08-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Añade aquí más URLs si hay más páginas en la raíz del sitio -->
 </urlset>
