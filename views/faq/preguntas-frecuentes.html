@@ -102,82 +102,122 @@
 
         <!--FAQ start-->
         <section>
-            <div class="container-xxl py-4 my-4 " id="faq">
-                <h2 class="display-5 mb-5 text-center text-bg"><b>PREGUNTAS Y RESPUESTAS FRECUENTES</b> </h2>
-                <div class="row container-fluid">
-                    <div class="col-md-6">
-                        <div class="alert alert-primary wow fadeInUp" data-wow-delay="0.1s" role="alert">
-                            <h6>¿Qué servicios ofreces exactamente? </h6>
-                            <small><i class="bi bi-arrow-return-right"></i>
-                                Diseño y desarrollo web estratégico, personalizado según las necesidades del cliente.
-                            </small>
+            <div class="container my-5">
+                <div class="accordion" id="faqAccordion">
+                    <!-- ¿Cómo solicito una cotización para mi proyecto? -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqOne">
+                            <button class="text-primary accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                                ¿Cómo solicito una cotización para mi proyecto?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Puedes solicitar una cotización a través de correo electrónico o mediante el formulario en mi sitio web. Te enviaré una propuesta detallada con los costos y condiciones.
+                            </div>
                         </div>
-                        <div class="alert alert-dark wow fadeInUp" data-wow-delay="0.2s" role="alert">
-                            <h6>¿Trabajas con alguna plataforma específica?</h6>
-                            <small><i class="bi bi-arrow-return-right"></i>
-                                Utilizo las tecnologías web que mejor se adapten a cada proyecto, incluyendo 
-                                HTML, CSS, JavaScript, y otras según sea necesario.
-                            </small>
+                    </div>
+            
+                    <!-- ¿Cómo funciona el proceso de pago? -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqTwo">
+                            <button class="text-primary accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                ¿Cómo funciona el proceso de pago?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Se requiere un anticipo para iniciar el proyecto, y el saldo se paga al finalizar. Los detalles específicos se incluirán en la cotización.
+                            </div>
                         </div>
-                        <div class="alert alert-primary wow fadeInUp" data-wow-delay="0.3s" role="alert">
-                            <h6>¿Cuánto tiempo tarda en desarrollarse una web?</h6>
-                            <small><i class="bi bi-arrow-return-right"></i>
-                                El tiempo varía según la complejidad del proyecto, pero normalmente toma
-                                entre 4 a 8 semanas desde la planificación hasta la entrega final.
-                            </small>
+                    </div>
+            
+                    <!-- ¿Cómo colaboramos durante el desarrollo del proyecto? -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqThree">
+                            <button class="text-primary accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                                ¿Cómo colaboramos durante el desarrollo del proyecto?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Programaremos una llamada por Meet para discutir tus necesidades y objetivos. También crearemos un brief para entender completamente tus requisitos y solucionar cualquier problema.
+                            </div>
                         </div>
-                        <div class="alert alert-dark wow fadeInUp" data-wow-delay="0.4s" role="alert">
-                            <h6>¿Cuál es el costo de tus servicios?</h6>
-                            <small><i class="bi bi-arrow-return-right"></i>
-                                El costo depende del alcance y los requisitos específicos del proyecto. 
-                                Ofrezco presupuestos personalizados después de una consulta inicial.
-                            </small>
+                    </div>
+            
+                    <!-- ¿Qué información debo proporcionar para comenzar el proyecto? -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqFour">
+                            <button class="text-primary accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+                                ¿Qué información debo proporcionar para comenzar el proyecto?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqFour" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Necesito información sobre tu negocio, objetivos, público objetivo, preferencias de diseño y cualquier funcionalidad específica que desees incluir.
+                            </div>
                         </div>
-                        <div class="alert alert-primary wow fadeInUp" data-wow-delay="0.5s" role="alert">
-                            <h6>¿Ofreces mantenimiento y soporte después del lanzamiento web?</h6>
-                            <small><i class="bi bi-arrow-return-right"></i>
-                                Sí, ofrezco servicios de mantenimiento y soporte continuo para asegurar que tu web siga funcionando de 
-                                manera óptima.
-                            </small>
+                    </div>
+            
+                    <!-- ¿Qué sucede si necesito hacer cambios después de recibir el diseño? -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqFive">
+                            <button class="text-primary accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
+                                ¿Qué sucede si necesito hacer cambios después de recibir el diseño?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqFive" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Ofrezco paquetes de mantenimiento y revisiones posteriores a la entrega para realizar ajustes y mejoras según tus necesidades continuas.
+                            </div>
                         </div>
-                    </div><!--col-md-6-->
-
-                    <div class="col-md-6">
-                        <div class="alert alert-dark wow fadeInUp" data-wow-delay="0.1s" role="alert">
-                            <h6>¿Puedes ayudar con el contenido de la web?</h6>
-                            <small><i class="bi bi-arrow-return-right"></i>
-                                Sí, puedo asesorarte en la creación y optimización de contenido, aunque el desarrollo de 
-                                contenido específico puede requerir colaboración con un copywriter.
-                            </small>
+                    </div>
+            
+                    <!-- ¿Cuánto tiempo tarda en completarse un proyecto? -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqSix">
+                            <button class="text-primary accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSix" aria-expanded="false" aria-controls="faqCollapseSix">
+                                ¿Cuánto tiempo tarda en completarse un proyecto?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseSix" class="accordion-collapse collapse" aria-labelledby="faqSix" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                El tiempo varía según la complejidad del proyecto: para diseño gráfico entre 4 y 6 semanas, y para diseño web entre 1 mes o más; desde el inicio hasta la entrega final.
+                            </div>
                         </div>
-                        <div class="alert alert-primary wow fadeInUp" data-wow-delay="0.2s" role="alert">
-                            <h6>¿Qué información necesitas para iniciar mi proyecto?</h6>
-                            <small><i class="bi bi-arrow-return-right"></i>Necesito entender tu negocio, objetivos, público objetivo, 
-                                preferencias de diseño, y cualquier funcionalidad específica que desees incluir.
-                            </small>
+                    </div>
+            
+                    <!-- ¿Incluyes servicios adicionales como SEO o contenido en el diseño web? -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqSeven">
+                            <button class="text-primary accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSeven" aria-expanded="false" aria-controls="faqCollapseSeven">
+                                ¿Incluyes servicios adicionales como SEO o contenido en el diseño web?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseSeven" class="accordion-collapse collapse" aria-labelledby="faqSeven" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Sí, incluyo prácticas básicas de SEO en todos los proyectos web y puedo asesorarte en la creación y optimización de contenido.
+                            </div>
                         </div>
-                        <div class="alert alert-dark wow fadeInUp" data-wow-delay="0.3s" role="alert">
-                            <h6>¿Ofreces servicios de SEO (optimización para motores de búsqueda)?</h6>
-                            <small><i class="bi bi-arrow-return-right"></i>
-                                Sí, incluyo prácticas básicas de SEO en todos mis proyectos y ofrezco servicios adicionales de SEO 
-                                avanzado si es necesario.
-                            </small>
+                    </div>
+            
+                    <!-- ¿Cómo puedo comenzar a trabajar contigo? -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqEight">
+                            <button class="text-primary accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseEight" aria-expanded="false" aria-controls="faqCollapseEight">
+                                ¿Cómo puedo comenzar a trabajar contigo?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseEight" class="accordion-collapse collapse" aria-labelledby="faqEight" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Contáctame a través de correo electrónico o redes sociales para programar una consulta inicial y discutir los detalles de tu proyecto.
+                            </div>
                         </div>
-                        <div class="alert alert-primary wow fadeInUp" data-wow-delay="0.4s" role="alert">
-                            <h6>¿Cómo puedo empezar a trabajar contigo?</h6>
-                            <small><i class="bi bi-arrow-return-right"></i>Puedes contactarme a través de mi correo electrónico o redes 
-                                sociales para programar una consulta inicial.
-                            </small>
-                        </div>
-                        <div class="alert alert-dark wow fadeInUp" data-wow-delay="0.5s" role="alert">
-                            <h6>¿Qué pasa si quiero hacer cambios después de que la web esté terminada?</h6>
-                            <small><i class="bi bi-arrow-return-right"></i>Ofrezco paquetes de mantenimiento y actualizaciones para realizar 
-                                cambios y mejoras según tus necesidades continuas.
-                            </small>
-                        </div>
-                    </div><!--col-md-6-->
-                </div><!--row container-->
-            </div><!--containerxxl-->
+                    </div>
+                </div>
+            </div>
+            
         </section>
         <!-- FAQ End -->
 
