@@ -45,6 +45,16 @@ display: none;
     background-color: #0e0e0e;
 }
 
+#fondoblanco {
+    background-image: url(https://soygabydigital.github.io/g/img/textura-blanco-soygabydigital-creadora-digital.webp);
+    margin-top: -6em;
+    padding: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    height: auto;
+    background-color: #fefefe;
+}
+
 p b,  h2 b, h4, h5 b, ul li b {
     color: #ff6600;
 }
